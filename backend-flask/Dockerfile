@@ -1,6 +1,11 @@
+#####
+# Create a Docker Image
+#####
+
 FROM python:3.10-slim-buster
 
 # Inside Container
+# Make a new folder inside container
 WORKDIR /backend-flask
 
 # Outside Container -> Inside Container
